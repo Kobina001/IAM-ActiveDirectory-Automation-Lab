@@ -1,24 +1,22 @@
-# 🧠 IAM Active Directory Automation & Security Lab
+#  IAM Active Directory Automation & Security Lab
 
-## 📌 Overview
+##  Overview
 This project simulates a real-world Identity and Access Management (IAM) environment using Windows Server Active Directory and PowerShell automation.
 
-It demonstrates enterprise identity lifecycle management, RBAC implementation, and security auditing.
+It demonstrates enterprise identity lifecycle management, RBAC implementation and security auditing.
 
----
 
-## 🏗️ Architecture
+##  Architecture
 
 - Windows Server 2022 (Domain Controller)
 - Windows 10 Client Machine
 - Active Directory Domain Services (AD DS)
 - DNS integrated with AD
-- Organizational Units (IT, HR, Finance, Security)
+- Organizational Units (IT, HR, Finance and Security)
 - Security Groups (RBAC model)
 
----
 
-## ⚙️ Features
+##  Features
 
 ### ✔ Identity Provisioning
 - Bulk user creation from CSV
@@ -27,7 +25,7 @@ It demonstrates enterprise identity lifecycle management, RBAC implementation, a
 
 ### ✔ RBAC (Role-Based Access Control)
 - Department-based security groups
-- IT_Users, HR_Users, Finance_Users, Security_Users
+- IT_Users, HR_Users, Finance_Users and Security_Users
 
 ### ✔ IAM Automation
 - PowerShell scripting
@@ -41,26 +39,23 @@ It demonstrates enterprise identity lifecycle management, RBAC implementation, a
 - Full directory export reports
 - Security compliance reporting
 
----
 
-## 🧾 Key Scripts
+##  Key Scripts
 
 - bulk_user_provisioning.ps1 → Automated onboarding
 - iam_audit_reports.ps1 → Security reports
 - security_checks.ps1 → IAM validation scripts
 
----
 
-## 📊 Reports Generated
+##  Reports Generated
 
 - Full AD User Inventory
 - Domain Admins Report
 - Security Audit Report
 - Inactive Accounts Report
 
----
 
-## 🔐 Security Concepts Demonstrated
+##  Security Concepts Demonstrated
 
 - Identity Lifecycle Management
 - Role-Based Access Control (RBAC)
@@ -68,9 +63,8 @@ It demonstrates enterprise identity lifecycle management, RBAC implementation, a
 - Privileged Access Management (PAM)
 - Active Directory Security Monitoring
 
----
 
-## ⚠️ Issues Solved
+##  Issues Solved
 
 - CSV formatting issues
 - PowerShell variable errors ($users)
@@ -78,9 +72,8 @@ It demonstrates enterprise identity lifecycle management, RBAC implementation, a
 - VM clipboard limitations
 - Domain naming inconsistencies
 
----
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone repo
 2. Open PowerShell as Administrator
@@ -92,8 +85,7 @@ It demonstrates enterprise identity lifecycle management, RBAC implementation, a
 .\scripts\02_iam_audit_reports.ps1
 .\scripts\03_security_checks.ps1
 
----
 
-## 🚀 Outcome
+##  Outcome
 
 This project demonstrates enterprise-level IAM engineering skills using Active Directory and PowerShell automation.
