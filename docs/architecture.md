@@ -1,11 +1,12 @@
-# Architecture Diagram
+# Architecture 
 
 ## IAM Lab Structure
 
 Windows 10 Client
         |
         | (Domain Authentication)
-        v
+        |
+        |
 Windows Server 2022 (Domain Controller)
 - Active Directory Domain Services
 - DNS Server
